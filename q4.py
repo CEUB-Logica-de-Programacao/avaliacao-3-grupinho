@@ -31,7 +31,7 @@ def q4(s):
     for i in range(1, len(s)):
         if s[i] == s[i].upper():
             x +=1
-    if x > 0:
+    if len(s) > 0:
         x += 1
     return x
 
