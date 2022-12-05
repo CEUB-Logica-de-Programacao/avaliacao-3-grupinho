@@ -53,7 +53,6 @@
 
 def q5(s):
     # Escreva seu código aqui
-    return False
 
 
 
