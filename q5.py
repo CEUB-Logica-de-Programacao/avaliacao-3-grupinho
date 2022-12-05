@@ -82,6 +82,7 @@ def q5(s):
     while aab() == False:
     print('Senha inválida')
     break
+    return False
 
 
 
