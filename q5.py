@@ -52,7 +52,7 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
-            caracteres = []
+    caracteres = []
     for i in s:
         caracteres.append(i)
     
