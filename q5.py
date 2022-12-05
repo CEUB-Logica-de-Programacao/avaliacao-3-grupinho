@@ -69,9 +69,14 @@ def q5(s):
         caracteres3 = caracteres
         for k in caracteres2:
             caracteres3.remove(k)
-            if len(list(set(caracteres3))) == 1:
+            frequencia = []
+            for z in caracteres3:
+                frequencia.append(caracteres3.count(z))
+            
+            if len(list(set(frequencia))) == 1:
                 return True
         return False
+        
 
 if __name__ == '__main__':
     print(q5('abcc'))
