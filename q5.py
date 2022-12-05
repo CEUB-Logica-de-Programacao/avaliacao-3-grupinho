@@ -52,33 +52,7 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
-    dict = {}
-    senha2 = {}
-    x = 0
-    y = 0
-    for n in range(0,len(s)):
-        if s[n] in dict == False:
-            dict[s[n]] = 0
-        else:
-            dict[s[n]] = valor(s[n]) +1
-    for n in dict.keys():
-        if valor(s[n]) > x:
-            x = valor(s[n])
-            xn = n
-    x -=1
-    senha2 = s
-    senha2[xn] = x
-    for i in range(0, len(dict)):
-        if valor(s[i]) == valor(s[len(dict)]) or if valor(senha2) == valor(senha2[len(dict)]:
-            y = 1
-    if y = 1:
-        return True
-    else:
-        return False
-    def valor(nome):
-        for k, v in dict.items():
-             if nome == k:
-                 return v
+    return False
         
 
 if __name__ == '__main__':
