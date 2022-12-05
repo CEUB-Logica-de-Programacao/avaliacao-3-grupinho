@@ -69,7 +69,7 @@ def q5(s):
     senha2 = s
     senha2[xn] = x
     for i in range(0, len(dict)):
-        if valor(s[i]) == valor(s[len(dict)]) or valor(senha2) == valor(senha2[len(dict)]:
+        if valor(s[i]) == valor(s[len(dict)]) or if valor(senha2) == valor(senha2[len(dict)]:
             y = 1
     if y = 1:
         return True
