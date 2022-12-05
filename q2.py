@@ -22,10 +22,14 @@
 
 def q2(start, end):
     quadradis = []
-    for i in range(start, end+1):
+    lista = []
+    for i in range(0, end+1):
         if not i*i > end:
             quadradis.append(i*i)
-    return quadradis
+    for n in range(start, end+1):
+        if n in quadradis:
+            lista.append(n)
+    return lista
 
 
 if __name__ == '__main__':
