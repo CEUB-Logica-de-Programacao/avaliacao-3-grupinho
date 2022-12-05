@@ -32,7 +32,7 @@ def q4(s):
         if s[i] == s[i].upper():
             x +=1
     if x > 0:
-    x += 1
+        x += 1
     return x
 
 
