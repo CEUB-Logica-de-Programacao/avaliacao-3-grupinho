@@ -23,7 +23,15 @@
 
 def q1(heights):
     
-    return heights.count(max(heights))
+    x =0
+    y = 1
+    for i in heights(0, len(heights)):
+        if i >x:
+            x = i
+            y = 1
+        if i = x:
+            y +=1
+    return y
 
 
 if __name__ == '__main__':
