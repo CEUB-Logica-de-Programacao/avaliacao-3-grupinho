@@ -23,13 +23,13 @@
 
 def q1(heights):
     
-    x =0
+    x = 0
     y = 1
-    for i in heights():
-        if i >x:
-            x = i
+    for i in range(0,len(heights)):
+        if heights[i] >x:
+            x = heights[i]
             y = 1
-        if i == x:
+        if heights[i] = x:
             y +=1
     return y
 
