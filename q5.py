@@ -52,7 +52,26 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
-        return False
+        caracteres = []
+        for i in s:
+            caracteres.append(i)
+
+        caracteres2 = list(set(caracteres))
+        frequencia = []
+
+        for j in caracteres2:
+            frequencia.append(caracteres.count(j))
+
+        if len(list(set(frequencia))) == 1:
+            return True
+
+        else:
+            caracteres3 = caracteres
+            for k in caracteres2:
+                caracteres3.remove(k)
+                if len(list(set(caracteres3)) == 1:
+                    return True
+            return False
 
 
 
