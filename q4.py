@@ -27,10 +27,12 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q4(s):
-    x = 1
+    x = 0
     for i in range(1, len(s)):
         if s[i] == s[i].upper():
             x +=1
+    if x > 0:
+    x += 1
     return x
 
 
