@@ -66,15 +66,7 @@ def q5(s):
         return True
     
     else:
-        caracteres3 = caracteres
-        for k in caracteres2:
-            caracteres3.remove(k)
-            frequencia = []
-            for z in caracteres3:
-                frequencia.append(caracteres3.count(z))
-            
-            if len(list(set(frequencia))) == 1:
-                return True
+        
         return False
         
 
