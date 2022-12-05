@@ -21,8 +21,11 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q2(start, end):
-    # Escreva seu código aqui
-    return []
+    quadradis = []
+    for i in range(start, end+1):
+        if not i*i > end:
+            quadradis.append(i*i)
+    return quadradis
 
 
 if __name__ == '__main__':
