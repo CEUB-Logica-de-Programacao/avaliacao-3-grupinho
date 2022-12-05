@@ -69,7 +69,7 @@ def q5(s):
             caracteres3 = caracteres
             for k in caracteres2:
                 caracteres3.remove(k)
-                if len(list(set(caracteres3)) == 1:
+                if len(list(set(caracteres3))) == 1:
                     return True
             return False
 
