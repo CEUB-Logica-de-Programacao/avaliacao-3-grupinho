@@ -28,7 +28,7 @@ def q1(heights):
     for i in range(0,len(heights)):
         if heights[i] >x:
             x = heights[i]
-            y = 1
+            y = 0
         if heights[i] == x:
             y +=1
     return y
